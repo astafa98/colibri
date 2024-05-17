@@ -1,0 +1,17 @@
+.header {
+  grid-area: h;
+  background-color: #e7ecff;
+  border-radius: 12px;
+  margin: 0;
+  width: 1200px;
+  height: 54px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+.logo:hover {
+  transform: rotate(26deg);
+}

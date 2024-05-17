@@ -1,0 +1,32 @@
+.nav {
+  grid-area: n;
+  background-color: #e7ecff;
+  border-radius: 12px;
+  height: 960px;
+  width: 200px;
+  margin: 0 5px 0 0;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.item {
+  color: black;
+  margin: 35px;
+  padding: 8px;
+  border: 2px solid #2f485c;
+  border-radius: 19px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.activeLink {
+  text-decoration: none;
+  color: black;
+}
+
+.item:hover {
+  background-color: #5ea87d;
+  color: white;
+}
